@@ -1,0 +1,29 @@
+{
+  "name": "kalimba-icon-theme",
+  "displayName": "Kalimba Icon Theme",
+  "description": "A VS Code icon theme that is easy on the eyes with thoughtfully selected icons.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "kalimba-icon-theme",
+        "label": "Kalimba",
+        "uiTheme": "vs-dark",
+        "path": "./themes/kalimba-dark.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rybb13/kalimba-icon-theme-vsce"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.21.0"
+  }
+}
