@@ -1,0 +1,125 @@
+{
+	"name": "kalimba",
+	"modes": {
+		"dark": "#cccccc"
+	}
+	/*,
+	"fonts": [
+		{
+			"id": "material-icons",
+			"src": [
+				{
+					"path": "./fonts/material-icons.woff2",
+					"format": "woff2"
+				}
+			],
+			"weight": "normal",
+			"style": "normal",
+			"size": "125%"
+		}
+	],
+	"icons": {
+		"file-default": { "fontCharacter": "note" },
+		"file-format-tag": { "fontCharacter": "code" },
+		"file-name-changelog": { "fontCharacter": "format_list_bulleted" },
+		"file-name-launch": { "fontCharacter": "rocket_launch" },
+		"file-name-license": { "fontCharacter": "contract" },
+		"file-name-package": { "fontCharacter": "package_2" },
+		"file-name-readme": { "fontCharacter": "developer_guide" },
+		"file-name-todo": { "fontCharacter": "checklist" },
+		"file-type-archive": { "fontCharacter": "inventory_2" },
+		"file-type-asset-audio": { "fontCharacter": "volume_up" },
+		"file-type-asset-code": { "fontCharacter": "data_object" },
+		"file-type-asset-data": { "fontCharacter": "dataset" },
+		"file-type-asset-database": { "fontCharacter": "database" },
+		"file-type-asset-font": { "fontCharacter": "text_fields" },
+		"file-type-asset-image": { "fontCharacter": "image" },
+		"file-type-asset-material": { "fontCharacter": "group_work" },
+		"file-type-asset-model": { "fontCharacter": "deployed_code" },
+		"file-type-asset-style": { "fontCharacter": "tag" },
+		"file-type-asset-video": { "fontCharacter": "videocam" },
+		"file-type-document-audio": { "fontCharacter": "volume_up" },
+		"file-type-document-image": { "fontCharacter": "image" },
+		"file-type-document-material": { "fontCharacter": "group_work" },
+		"file-type-document-math": { "fontCharacter": "function" },
+		"file-type-document-model": { "fontCharacter": "deployed_code" },
+		"file-type-document-presentation": { "fontCharacter": "ad_group" },
+		"file-type-document-spreadsheet": { "fontCharacter": "table_chart" },
+		"file-type-document-text": { "fontCharacter": "article" },
+		"file-type-document-video": { "fontCharacter": "videocam" },
+		"file-type-drive": { "fontCharacter": "hard_drive_2" },
+		"file-type-executable": { "fontCharacter": "slideshow" },
+		"file-type-library": { "fontCharacter": "account_tree" },
+		"file-type-lock": { "fontCharacter": "lock" },
+		"file-type-package": { "fontCharacter": "package_2" },
+		"file-use-automation": { "fontCharacter": "conversion_path" },
+		"file-use-configuration": { "fontCharacter": "settings" },
+		"file-use-synchronization": { "fontCharacter": "sync_alt" },
+		"folder-default": { "fontCharacter": "folder" },
+		"folder-use-configuration": { "fontCharacter": "folder_managed" },
+		"folder-use-generation": { "fontCharacter": "topic" },
+		"folder-use-synchronization": { "fontCharacter": "folder_data" }
+	},
+	"files": {
+		"presets": {
+			"default": "file-default",
+			"format": { "tag": "file-format-tag" },
+			"type": {
+				"archive": "file-type-archive",
+				"drive": "file-type-drive",
+				"executable": "file-type-executable",
+				"library": "file-type-library",
+				"package": "file-type-package"
+			},
+			"asset": {
+				"audio": "file-type-asset-audio",
+				"code": "file-type-asset-code",
+				"data": "file-type-asset-data",
+				"database": "file-type-asset-database",
+				"font": "file-type-asset-font",
+				"image": "file-type-asset-image",
+				"material": "file-type-asset-material",
+				"model": "file-type-asset-model",
+				"style": "file-type-asset-style",
+				"video": "file-type-asset-video"
+			},
+			"document": {
+				"audio": "file-type-document-audio",
+				"image": "file-type-document-image",
+				"material": "file-type-document-material",
+				"math": "file-type-document-math",
+				"model": "file-type-document-model",
+				"presentation": "file-type-document-presentation",
+				"spreadsheet": "file-type-document-spreadsheet",
+				"text": "file-type-document-text",
+				"video": "file-type-document-video"
+			},
+			"use": {
+				"automation": "file-use-automation",
+				"configuration": "file-use-configuration",
+				"synchronization": "file-use-synchronization"
+			},
+			"name": {
+				"changelog": "file-name-changelog",
+				"launch": "file-name-launch",
+				"license": "file-name-license",
+				"package": "file-name-package",
+				"readme": "file-name-readme",
+				"todo": "file-name-todo"
+			}
+		},
+		"extensions": {},
+		"names": {}
+	},
+	"folders": {
+		"presets": {
+			"default": "folder-default",
+			"automation": "file-use-automation",
+			"configuration": "folder-use-configuration",
+			"generation": "folder-use-generation",
+			"synchronization": "folder-use-synchronization"
+		},
+		"names": {}
+	}
+	*/
+}

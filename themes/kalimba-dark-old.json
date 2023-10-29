@@ -1,0 +1,474 @@
+{
+	"fonts": [
+		{
+			"id": "material-icons",
+			"src": [
+				{
+					"path": "./fonts/material-icons.woff2",
+					"format": "woff2"
+				}
+			],
+			"weight": "normal",
+			"style": "normal",
+			"size": "125%"
+		}
+	],
+	"iconDefinitions": {
+		"file-default": {
+			"fontCharacter": "note",
+			"fontColor": "#cccccc"
+		},
+		"file-format-tag": {
+			"fontCharacter": "code",
+			"fontColor": "#cccccc"
+		},
+		"file-name-changelog": {
+			"fontCharacter": "format_list_bulleted",
+			"fontColor": "#cccccc"
+		},
+		"file-name-launch": {
+			"fontCharacter": "rocket_launch",
+			"fontColor": "#cccccc"
+		},
+		"file-name-license": {
+			"fontCharacter": "contract",
+			"fontColor": "#cccccc"
+		},
+		"file-name-package": {
+			"fontCharacter": "package_2",
+			"fontColor": "#cccccc"
+		},
+		"file-name-readme": {
+			"fontCharacter": "developer_guide",
+			"fontColor": "#cccccc"
+		},
+		"file-name-todo": {
+			"fontCharacter": "checklist",
+			"fontColor": "#cccccc"
+		},
+		"file-type-archive": {
+			"fontCharacter": "inventory_2",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-audio": {
+			"fontCharacter": "volume_up",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-code": {
+			"fontCharacter": "data_object",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-data": {
+			"fontCharacter": "dataset",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-database": {
+			"fontCharacter": "database",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-font": {
+			"fontCharacter": "text_fields",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-image": {
+			"fontCharacter": "image",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-material": {
+			"fontCharacter": "group_work",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-model": {
+			"fontCharacter": "deployed_code",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-style": {
+			"fontCharacter": "tag",
+			"fontColor": "#cccccc"
+		},
+		"file-type-asset-video": {
+			"fontCharacter": "videocam",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-audio": {
+			"fontCharacter": "volume_up",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-image": {
+			"fontCharacter": "image",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-material": {
+			"fontCharacter": "group_work",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-math": {
+			"fontCharacter": "function",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-model": {
+			"fontCharacter": "deployed_code",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-presentation": {
+			"fontCharacter": "ad_group",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-spreadsheet": {
+			"fontCharacter": "table_chart",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-text": {
+			"fontCharacter": "article",
+			"fontColor": "#cccccc"
+		},
+		"file-type-document-video": {
+			"fontCharacter": "videocam",
+			"fontColor": "#cccccc"
+		},
+		"file-type-drive": {
+			"fontCharacter": "hard_drive_2",
+			"fontColor": "#cccccc"
+		},
+		"file-type-executable": {
+			"fontCharacter": "slideshow",
+			"fontColor": "#cccccc"
+		},
+		"file-type-library": {
+			"fontCharacter": "account_tree",
+			"fontColor": "#cccccc"
+		},
+		"file-type-lock": {
+			"fontCharacter": "lock",
+			"fontColor": "#cccccc"
+		},
+		"file-type-package": {
+			"fontCharacter": "package_2",
+			"fontColor": "#cccccc"
+		},
+		"file-use-automation": {
+			"fontCharacter": "conversion_path",
+			"fontColor": "#cccccc"
+		},
+		"file-use-configuration": {
+			"fontCharacter": "settings",
+			"fontColor": "#cccccc"
+		},
+		"file-use-synchronization": {
+			"fontCharacter": "sync_alt",
+			"fontColor": "#cccccc"
+		},
+		"folder-default": {
+			"fontCharacter": "folder",
+			"fontColor": "#cccccc"
+		},
+		"folder-use-configuration": {
+			"fontCharacter": "folder_managed",
+			"fontColor": "#cccccc"
+		},
+		"folder-use-generation": {
+			"fontCharacter": "topic",
+			"fontColor": "#cccccc"
+		},
+		"folder-use-synchronization": {
+			"fontCharacter": "folder_data",
+			"fontColor": "#cccccc"
+		}
+	},
+	"file": "file-default",
+	"fileExtensions": {
+		"dhtml": "file-format-tag",
+		"htm": "file-format-tag",
+		"html": "file-format-tag",
+		"html5": "file-format-tag",
+		"shtml": "file-format-tag",
+		"xhtml": "file-format-tag",
+		"xml": "file-format-tag",
+		"7z": "file-type-archive",
+		"arj": "file-type-archive",
+		"deb": "file-type-archive",
+		"gz": "file-type-archive",
+		"jar": "file-type-archive",
+		"pkg": "file-type-archive",
+		"rar": "file-type-archive",
+		"rpm": "file-type-archive",
+		"tar": "file-type-archive",
+		"z": "file-type-archive",
+		"zip": "file-type-archive",
+		"dmg": "file-type-drive",
+		"iso": "file-type-drive",
+		"toast": "file-type-drive",
+		"vcd": "file-type-drive",
+		"apk": "file-type-executable",
+		"bat": "file-type-executable",
+		"com": "file-type-executable",
+		"exe": "file-type-executable",
+		"msi": "file-type-executable",
+		"o": "file-type-executable",
+		"wsf": "file-type-executable",
+		"bundle": "file-type-library",
+		"dll": "file-type-library",
+		"dylib": "file-type-library",
+		"lock": "file-type-lock",
+		"vsix": "file-type-package",
+		"aac": "file-type-asset-audio",
+		"aif": "file-type-asset-audio",
+		"aifc": "file-type-asset-audio",
+		"aiff": "file-type-asset-audio",
+		"au": "file-type-asset-audio",
+		"avr": "file-type-asset-audio",
+		"cda": "file-type-asset-audio",
+		"flac": "file-type-asset-audio",
+		"m3u": "file-type-asset-audio",
+		"m4a": "file-type-asset-audio",
+		"mid": "file-type-asset-audio",
+		"midi": "file-type-asset-audio",
+		"mp2": "file-type-asset-audio",
+		"mp3": "file-type-asset-audio",
+		"mpa": "file-type-asset-audio",
+		"mpc": "file-type-asset-audio",
+		"oga": "file-type-asset-audio",
+		"ogg": "file-type-asset-audio",
+		"plu": "file-type-asset-audio",
+		"vlc": "file-type-asset-audio",
+		"wav": "file-type-asset-audio",
+		"wma": "file-type-asset-audio",
+		"wpl": "file-type-asset-audio",
+		"a": "file-type-asset-code",
+		"a68": "file-type-asset-code",
+		"ada": "file-type-asset-code",
+		"asm": "file-type-asset-code",
+		"c": "file-type-asset-code",
+		"carbon": "file-type-asset-code",
+		"cgi": "file-type-asset-code",
+		"cl": "file-type-asset-code",
+		"class": "file-type-asset-code",
+		"clj": "file-type-asset-code",
+		"cljc": "file-type-asset-code",
+		"cljs": "file-type-asset-code",
+		"coffee": "file-type-asset-code",
+		"cpp": "file-type-asset-code",
+		"cs": "file-type-asset-code",
+		"d": "file-type-asset-code",
+		"dart": "file-type-asset-code",
+		"ex": "file-type-asset-code",
+		"f": "file-type-asset-code",
+		"f77": "file-type-asset-code",
+		"f90": "file-type-asset-code",
+		"for": "file-type-asset-code",
+		"frag": "file-type-asset-code",
+		"fs": "file-type-asset-code",
+		"geom": "file-type-asset-code",
+		"glsl": "file-type-asset-code",
+		"go": "file-type-asset-code",
+		"h": "file-type-asset-code",
+		"hlsl": "file-type-asset-code",
+		"hpp": "file-type-asset-code",
+		"hs": "file-type-asset-code",
+		"java": "file-type-asset-code",
+		"jl": "file-type-asset-code",
+		"js": "file-type-asset-code",
+		"json": "file-type-asset-code",
+		"kt": "file-type-asset-code",
+		"kts": "file-type-asset-code",
+		"l": "file-type-asset-code",
+		"lisp": "file-type-asset-code",
+		"litco": "file-type-asset-code",
+		"lsp": "file-type-asset-code",
+		"lua": "file-type-asset-code",
+		"mat": "file-type-asset-code",
+		"ml": "file-type-asset-code",
+		"pas": "file-type-asset-code",
+		"php": "file-type-asset-code",
+		"pl": "file-type-asset-code",
+		"py": "file-type-asset-code",
+		"rs": "file-type-asset-code",
+		"sc": "file-type-asset-code",
+		"sh": "file-type-asset-code",
+		"spv": "file-type-asset-code",
+		"sql": "file-type-asset-code",
+		"swift": "file-type-asset-code",
+		"ts": "file-type-asset-code",
+		"vb": "file-type-asset-code",
+		"vert": "file-type-asset-code",
+		"wasm": "file-type-asset-code",
+		"wgsl": "file-type-asset-code",
+		"bin": "file-type-asset-data",
+		"dat": "file-type-asset-data",
+		"log": "file-type-asset-data",
+		"sab": "file-type-asset-data",
+		"sat": "file-type-asset-data",
+		"sav": "file-type-asset-data",
+		"db": "file-type-asset-database",
+		"dbf": "file-type-asset-database",
+		"mdb": "file-type-asset-database",
+		"fnt": "file-type-asset-font",
+		"fon": "file-type-asset-font",
+		"otf": "file-type-asset-font",
+		"ttf": "file-type-asset-font",
+		"woff": "file-type-asset-font",
+		"woff2": "file-type-asset-font",
+		"bmp": "file-type-asset-image",
+		"dds": "file-type-asset-image",
+		"gif": "file-type-asset-image",
+		"heic": "file-type-asset-image",
+		"heics": "file-type-asset-image",
+		"heif": "file-type-asset-image",
+		"heifs": "file-type-asset-image",
+		"hif": "file-type-asset-image",
+		"ico": "file-type-asset-image",
+		"jpeg": "file-type-asset-image",
+		"jpg": "file-type-asset-image",
+		"png": "file-type-asset-image",
+		"ps": "file-type-asset-image",
+		"svg": "file-type-asset-image",
+		"tif": "file-type-asset-image",
+		"tiff": "file-type-asset-image",
+		"webp": "file-type-asset-image",
+		"mdl": "file-type-asset-material",
+		"mtl": "file-type-asset-material",
+		"sbsar": "file-type-asset-material",
+		"3ds": "file-type-asset-model",
+		"abc": "file-type-asset-model",
+		"fbx": "file-type-asset-model",
+		"gltf": "file-type-asset-model",
+		"iges": "file-type-asset-model",
+		"igs": "file-type-asset-model",
+		"obj": "file-type-asset-model",
+		"step": "file-type-asset-model",
+		"stl": "file-type-asset-model",
+		"stp": "file-type-asset-model",
+		"x3d": "file-type-asset-model",
+		"css": "file-type-asset-style",
+		"css3": "file-type-asset-style",
+		"sass": "file-type-asset-style",
+		"scss": "file-type-asset-style",
+		"3g2": "file-type-asset-video",
+		"3gp": "file-type-asset-video",
+		"avi": "file-type-asset-video",
+		"flv": "file-type-asset-video",
+		"h264": "file-type-asset-video",
+		"hevc": "file-type-asset-video",
+		"m4v": "file-type-asset-video",
+		"mkv": "file-type-asset-video",
+		"mov": "file-type-asset-video",
+		"mp4": "file-type-asset-video",
+		"mpeg": "file-type-asset-video",
+		"mpg": "file-type-asset-video",
+		"rm": "file-type-asset-video",
+		"swf": "file-type-asset-video",
+		"vob": "file-type-asset-video",
+		"webm": "file-type-asset-video",
+		"wmv": "file-type-asset-video",
+		"als": "file-type-document-audio",
+		"aup": "file-type-document-audio",
+		"aup3": "file-type-document-audio",
+		"avp": "file-type-document-audio",
+		"cpr": "file-type-document-audio",
+		"flp": "file-type-document-audio",
+		"logic": "file-type-document-audio",
+		"logicx": "file-type-document-audio",
+		"sesx": "file-type-document-audio",
+		"ai": "file-type-document-image",
+		"ase": "file-type-document-image",
+		"aseprite": "file-type-document-image",
+		"psd": "file-type-document-image",
+		"xcf": "file-type-document-image",
+		"sbsprj": "file-type-document-material",
+		"spp": "file-type-document-material",
+		"tex": "file-type-document-math",
+		"blend": "file-type-document-model",
+		"blend1": "file-type-document-model",
+		"c4d": "file-type-document-model",
+		"dwg": "file-type-document-model",
+		"dxf": "file-type-document-model",
+		"hip": "file-type-document-model",
+		"ma": "file-type-document-model",
+		"max": "file-type-document-model",
+		"prj": "file-type-document-model",
+		"skp": "file-type-document-model",
+		"zpr": "file-type-document-model",
+		"ppt": "file-type-document-presentation",
+		"pptx": "file-type-document-presentation",
+		"key": "file-type-document-presentation",
+		"csv": "file-type-document-spreadsheet",
+		"dif": "file-type-document-spreadsheet",
+		"ods": "file-type-document-spreadsheet",
+		"xls": "file-type-document-spreadsheet",
+		"doc": "file-type-document-text",
+		"docx": "file-type-document-text",
+		"md": "file-type-document-text",
+		"odt": "file-type-document-text",
+		"pdf": "file-type-document-text",
+		"txt": "file-type-document-text",
+		"drp": "file-type-document-video",
+		"fcp": "file-type-document-video",
+		"prproj": "file-type-document-video",
+		"veg": "file-type-document-video",
+		"workflows/yaml": "file-use-automation",
+		"workflows/yml": "file-use-automation",
+		"ini": "file-use-configuration",
+		"toml": "file-use-configuration",
+		"yaml": "file-use-configuration",
+		"yml": "file-use-configuration",
+		"gitattributes": "file-use-synchronization",
+		"gitignore": "file-use-synchronization"
+	},
+	"fileNames": {
+		"changelist.md": "file-name-changelog",
+		"changelist.txt": "file-name-changelog",
+		"changelog.md": "file-name-changelog",
+		"changelog.txt": "file-name-changelog",
+		"changes.md": "file-name-changelog",
+		"changes.txt": "file-name-changelog",
+		"summary.md": "file-name-changelog",
+		"summary.txt": "file-name-changelog",
+		"launch.json": "file-name-launch",
+		"license.md": "file-name-license",
+		"license.txt": "file-name-license",
+		"package.json": "file-name-package",
+		"guide.md": "file-name-readme",
+		"guide.txt": "file-name-readme",
+		"outline.md": "file-name-readme",
+		"outline.txt": "file-name-readme",
+		"overview.md": "file-name-readme",
+		"overview.txt": "file-name-readme",
+		"readme.md": "file-name-readme",
+		"readme.txt": "file-name-readme",
+		"plan.md": "file-name-todo",
+		"plan.txt": "file-name-todo",
+		"todo.md": "file-name-todo",
+		"todo.txt": "file-name-todo",
+		"config.json": "file-use-configuration",
+		"tsconfig.json": "file-use-configuration",
+		"webpack.config.js": "file-use-configuration",
+		"webpack.js": "file-use-configuration"
+	},
+	"folder": "folder-default",
+	"folderNames": {
+		"workflows": "file-use-automation",
+		".cargo": "folder-use-configuration",
+		".config": "folder-use-configuration",
+		".vscode": "folder-use-configuration",
+		"config": "folder-use-configuration",
+		".bin": "folder-use-generation",
+		".build": "folder-use-generation",
+		".debug": "folder-use-generation",
+		".gen": "folder-use-generation",
+		".generated": "folder-use-generation",
+		".output": "folder-use-generation",
+		".release": "folder-use-generation",
+		".target": "folder-use-generation",
+		"bin": "folder-use-generation",
+		"build": "folder-use-generation",
+		"debug": "folder-use-generation",
+		"gen": "folder-use-generation",
+		"generated": "folder-use-generation",
+		"node_modules": "folder-use-generation",
+		"output": "folder-use-generation",
+		"release": "folder-use-generation",
+		"target": "folder-use-generation",
+		".git": "folder-use-synchronization",
+		".github": "folder-use-synchronization"
+	}
+}

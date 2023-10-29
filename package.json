@@ -1,29 +1,37 @@
 {
-  "name": "kalimba-icon-theme",
-  "displayName": "Kalimba Icon Theme",
-  "description": "A VS Code icon theme that is easy on the eyes with thoughtfully selected icons.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.81.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "iconThemes": [
-      {
-        "id": "kalimba-icon-theme",
-        "label": "Kalimba",
-        "uiTheme": "vs-dark",
-        "path": "./themes/kalimba-dark.json"
-      }
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rybb13/kalimba-icon-theme-vsce"
-  },
-  "devDependencies": {
-    "@vscode/vsce": "^2.21.0"
-  }
+	"name": "kalimba-icon-theme",
+	"displayName": "Kalimba Icon Theme",
+	"publisher": "Riley Haefner",
+	"description": "An airy VS Code icon theme that is easy on the eyes with thoughtfully selected icons.",
+	"categories": [
+		"Themes"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rybb13/kalimba-icon-theme-vsce"
+	},
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.81.0"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "kalimba-icon-theme",
+				"label": "Kalimba Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/kalimba-dark.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"@vscode/vsce": "^2.21.0",
+		"@types/node": "^20.6.2",
+		"typescript": "^5.2.2"
+	},
+	"scripts": {
+		"dev:build": "cls && cd build-tool && npm run cmd:build && cd ../",
+		"cmd:build": "cls && node build-tool/dst/main.js -i build.config.json -o themes",
+		"dev:build-run": "cls && npm run dev:build && cls && npm run cmd:build"
+	}
 }

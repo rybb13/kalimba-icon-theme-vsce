@@ -1,0 +1,13 @@
+{
+	"name": "fp-ts",
+	"author": "Riley Haefner",
+	"description": "Functional programming extensions for TypeScript.",
+	"version": "0.1.0",
+	"license": "see 'License.md'",
+	"readme": "see 'Readme.md'",
+	"main": "dst/lib.js",
+	"scripts": {
+		"build": "cls && npx tsc",
+		"test": "cls && node dst/test.js"
+	}
+}

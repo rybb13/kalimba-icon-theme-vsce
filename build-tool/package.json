@@ -1,0 +1,26 @@
+{
+	"name": "build-tool",
+	"author": "Riley Haefner",
+	"description": "CLI Build tool for generating theme files.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rybb13/icon-theme-build-tool-vsce"
+	},
+	"license": "see 'License.md'",
+	"version": "1.0.0",
+	"main": "main.js",
+	"devDependencies": {
+		"@types/figlet": "^1.5.6",
+		"@types/node": "^20.6.2",
+		"typescript": "^5.2.2"
+	},
+	"dependencies": {
+		"commander": "^11.0.0",
+		"figlet": "^1.6.0"
+	},
+	"scripts": {
+		"cmd:build": "cls && npx tsc",
+		"cmd:run": "cls && node dst/main.js -h",
+		"cmd:build-run": "cls && npm run cmd:build && cls && npm run cmd:run"
+	}
+}

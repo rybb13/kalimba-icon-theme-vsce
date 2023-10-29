@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"ES2020"
+		],
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"noImplicitReturns": true,
+		"noUnusedParameters": true,
+		"outDir": "dst",
+		"rootDir": "src",
+		"sourceMap": true,
+		"strict": true,
+		"target": "es6"
+	}
+}
